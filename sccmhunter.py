@@ -57,7 +57,10 @@ app.add_typer(
     help=dpapi.HELP
 )
 
-if __name__ == '__main__':
+def main():
     #show_banner()
     small_banner()
     app(prog_name='sccmhunter')
+
+if __name__ == '__main__':
+    main()
