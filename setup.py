@@ -37,7 +37,7 @@ setup(
     python_requires=">=3.8",
     entry_points={
         "console_scripts": [
-            "sccmhunter.py=sccmhunter.py:main"
+            "sccmhunter.py=src.sccmhunter:main"
         ],
     },
 )
